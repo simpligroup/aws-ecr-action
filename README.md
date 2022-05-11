@@ -47,11 +47,11 @@ jobs:
 If you don't want to use the latest docker image, you can point to any reference in the repo directly.
 
 ```yaml
-  - uses: kciter/aws-ecr-action@master
+  - uses: simpligroup/aws-ecr-action@master
   # or
-  - uses: kciter/aws-ecr-action@v3
+  - uses: simpligroup/aws-ecr-action@v3
   # or
-  - uses: kciter/aws-ecr-action@0589ad88c51a1b08fd910361ca847ee2cb708a30
+  - uses: simpligroup/aws-ecr-action@0589ad88c51a1b08fd910361ca847ee2cb708a30
 ```
 
 ## License
